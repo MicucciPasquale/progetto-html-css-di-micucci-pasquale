@@ -2,12 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sito web di Micucci Pasquale, Jr Full-Stack Web Developer">
     <meta name="keywords" content="web developer, full-stack, soft skills, hard skills, contatti">
     <meta name="author" content="Micucci Pasquale">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="7 days">
+
+    <meta property="og:title" content="MP Web Developer">
+    <meta property="og:description" content="Sito web di Micucci Pasquale, Jr Full-Stack Web Developer">
+    <meta property="og:url" content="https://micuccipasquale.github.io/progetto-html-css-di-micucci-pasquale/">
+    <meta property="og:type" content="website">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="MP Web Developer">
+    <meta name="twitter:description" content="Sito web di Micucci Pasquale, Jr Full-Stack Web Developer">
+     
 
 <title>MP Web Developer</title>
 <link rel="icon" href="images/favicon.ico">
@@ -20,29 +32,38 @@
 </head>
 <body>
     <!-- INTESTAZIONE HTML E CSS-->
+    <input type="checkbox" id="menu-toggle" class="hidden">
+    <label for="menu-toggle" class="hamburger-menu">
+
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </label>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#hard-skills">Hard Skills</a></li>
+            <li><a href="#soft-skills">Soft Skills</a></li>
+            <li><a href="#contattami">Contattami</a></li>
+            <li><a href="CV OTTOBRE 2023.pdf">Mio CV</a></li>
+        </ul>
+    
+    </nav>
+       
+</nav>
+
     <div class="heading">
-    <div class="first-header-sentence">
-        
+        <div class=" first-header-sentence">
         <button type="button" class="btn btn-personalized"><a href="#hard-skills">Hard Skills</a></button>
         <button type="button" class="btn btn-personalized"><a href="#soft-skills">Soft Skills</a></button>
         <button type="button" class="btn btn-personalized"><a href="#contattami">Contattami</a></button>
-        <button type="button" class="btn btn-personalized"><a href="miocv.html">Mio cv</a></button>
-
-
+        <button type="button" class="btn btn-personalized"><a href="CV OTTOBRE 2023.pdf">Mio CV</a></button>
         
-       
         <h1>Micucci Pasquale </h1> 
-        <h2>JR FULL-STACK</h2>
-        <br>
-        <br>
-
- 
-     
-</div>
-
-
-
-
+        <h2>JR FULL-STACK</h2>    
+  
+    </div>
+    
 
 
 <!--PRIMA PAGINA-->
@@ -70,7 +91,7 @@
 <!--SECONDA PAGINA-->
 <div class="second-page">
     <div class="soft-skills">
- <br>
+ 
  <section id="soft-skills">
         <h1>SOFT SKILLS</h1>
         <ul>
@@ -86,13 +107,10 @@
                 alt=""width="30" height="30">Gestione del Tempo</li>
         </ul>
     </section>
-        <br>
-        <br>
-
-        
+      
         <p><img src="images/svgs/regular/trash-can.svg" alt=""width="20" height="20">Ho intrapreso diversi lavori che mi hanno<br>portato ad ottenere questi ridultati,<br><br> ma non ero soddisfatto per quello che svolgevo...</p>
 
-<br>
+
     </div>
     </div>
 
@@ -112,30 +130,28 @@
 
      <h1>2023<img src="images/svgs/regular/handshake.svg" alt=""width="55" height="55">HARD SKILLS</h1>
        
-        <img src="images/svgs/brands/java.svg" 
-     alt=""width="120" height="120">
+                <img src="images/svgs/brands/java.svg" 
+            alt=""width="120" height="120">
 
-     <img src="images/svgs/brands/html5.svg" 
-     alt=""width="120" height="120">
+            <img src="images/svgs/brands/html5.svg" 
+            alt=""width="120" height="120">
 
-     <img src="images/svgs/brands/css3.svg" 
-     alt=""width="120" height="120">
+            <img src="images/svgs/brands/css3.svg" 
+            alt=""width="120" height="120">
 
-     <img src="images/svgs/brands/bootstrap.svg" 
-     alt=""width="120" height="120">
-     <br>
-     <img src="images/svgs/brands/react.svg" 
-     alt=""width="120" height="120">
+            <img src="images/svgs/brands/bootstrap.svg" 
+            alt=""width="120" height="120">
+            <br>
+            <img src="images/svgs/brands/react.svg" 
+            alt=""width="120" height="120">
 
-     <img src="images/svgs/brands/node-js.svg" 
-     alt=""width="120" height="120">
-     <br>
-     <img src="images/svgs/brands/sass.svg" 
-     alt=""width="120" height="120">
-<br>
-<br>  
-<br>
-   
+            <img src="images/svgs/brands/node-js.svg" 
+            alt=""width="120" height="120">
+            <br>
+            <img src="images/svgs/brands/sass.svg" 
+            alt=""width="120" height="120">
+
+     
     </div>
 
 
@@ -145,11 +161,9 @@
     <div class="fourth-page">
     <div class="contacts">
         <section id="contattami"></section>
- <br>       
+       
         <h1>CONTATTAMI</h1>
- <br>
- <br> 
- <br>
+
    <form action="mailto:pasqualeegiorgia07062013@gmail.com" method="post" enctype="text/plain">   
         <div class="mb-3 central-table">
             <label for="exampleFormControlInput1" class="form-label">Indirizzo E-Mail</label>
@@ -159,15 +173,14 @@
           <div class="mb-3 central-table">
             <label for="exampleFormControlTextarea1" class="form-label">Scrivimi</label>
             <a href="mailto:pasqualeegiorgia07062013@gmail.com"></a>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
- <br>           
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
+       
             <input type="submit" value="Invia" class="btn btn-primary">
 
           </div>
         </form> 
- <br>
- <br>     
- <br> 
+
+
  <div class="central-container">
          <div class="images-icons">
             <a href="https://www.linkedin.com/in/pasquale-micucci1111/">
@@ -175,15 +188,16 @@
 
             <a href="https://wa.me/393205734896">
             <img src="images/svgs/brands/whatsapp.svg" 
-             alt=""width="50" height="50">
+             alt=""width="50" height="50"></a>
 
             <a href="https://github.com/MicucciPasquale">
             <img src="images/svgs/brands/github.svg" 
-            alt=""width="50" height="50">
+            alt=""width="50" height="50"></a>
         </div>
  </div>   
     </div>
     </div>
+
 
 
 </body>
