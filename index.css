@@ -1,17 +1,26 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 0;
-    background-color: rgb(255, 246, 204); 
+    margin-top: -1%;;
+    height: none;
+    position: auto;
+    overflow-x: hidden; 
+    max-width: 100%;  
 }
-
+@media (min-width: 768px){
+    .html,body{
+    margin:auto;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+}
 
 .first-header-sentence{
     text-align: right; 
+   
 }
 
 .heading{
     background-color: rgb(255, 246, 204); 
+
 }
 
 
@@ -127,12 +136,17 @@ html, body {
     margin-top: -5%;
 }
 
-@media (max-width:768px){
+@media (max-width: 769px){
     .first-header-sentence h1{
+        margin-top: auto;
+        
+    }
+}
+@media (max-width: 768px){
+    .first-header-sentence h2{
         margin-top: auto;
     }
 }
-
 .first-header-sentence h2{
     font-family: "Arial"; 
     font-size: 150%;
@@ -146,9 +160,12 @@ html, body {
 
 
 
+
 .first-page{
     background-color: rgb(255, 246, 204);
      padding-left: 10%;
+     
+     
 
 }
 .first-sentence p{
@@ -169,6 +186,7 @@ html, body {
     color: rgb(70, 240, 93); 
     text-align: right;
     padding-right: 1%;
+   
     
  }
 
@@ -178,8 +196,13 @@ html, body {
     color: rgb(6, 59, 1);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    
 }
-
+@media (max-width: 769px){
+    .second-sentence p{
+    font-size: 60%;
+}
+}
 
 
 .third-sentence{
