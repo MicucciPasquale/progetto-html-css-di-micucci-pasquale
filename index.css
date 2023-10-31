@@ -1,9 +1,10 @@
 html, body {
-    margin-top: -1%;;
+    margin-top: -2%;;
     height: none;
     position: auto;
     overflow-x: hidden; 
     max-width: 100%;  
+    
 }
 @media (min-width: 768px){
     .html,body{
@@ -139,12 +140,17 @@ html, body {
 @media (max-width: 769px){
     .first-header-sentence h1{
         margin-top: auto;
-        
+        padding-top: 5%;
+        padding-left: 2%;
+        font-size: 400%;
+        text-align: left;  
     }
 }
 @media (max-width: 768px){
     .first-header-sentence h2{
         margin-top: auto;
+      
+       
     }
 }
 .first-header-sentence h2{
