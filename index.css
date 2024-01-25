@@ -20,7 +20,7 @@ html, body {
 }
 
 .heading{
-    background-color: rgb(255, 246, 204); 
+    background-color: rgb(199, 199, 199); 
 
 }
 
@@ -29,7 +29,7 @@ html, body {
     .btn-personalized {
         background-color: rgb(252, 252, 252);
         color: rgb(3, 24, 2);
-        border-color: rgb(190, 255, 170);
+        border-color: rgb(23, 21, 139);
         text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.205);
         margin-left: 2%;
         margin-top: 3%;
@@ -38,8 +38,8 @@ html, body {
 
     .btn-personalized a {
         text-decoration: none;
-        color: rgb(2, 54, 15);
-        border-color: rgb(190, 255, 170);
+        color: black;
+        border-color: rgb(23, 21, 139);
     }
 
     .btn-personalized a:active {
@@ -127,7 +127,7 @@ html, body {
 }
 
 .first-header-sentence h1{
-    font-family: "Brush Script MT"; 
+    font-family: 'Dancing Script', cursive; 
     font-size: 500%;
     font-weight: 1;
     color: rgb(0, 0, 0); 
@@ -154,7 +154,7 @@ html, body {
     }
 }
 .first-header-sentence h2{
-    font-family: "Arial"; 
+    font-family: 'Dancing Script', cursive; 
     font-size: 150%;
     color: rgb(0, 0, 0); 
     font-weight: 700;
@@ -168,7 +168,7 @@ html, body {
 
 
 .first-page{
-    background-color: rgb(255, 246, 204);
+   background-color: white; 
      padding-left: 10%;
      
      
@@ -186,10 +186,10 @@ html, body {
 .first-sentence{
     font-family: "Arial"; 
     font-size: 5%;
-    text-shadow: 0px 25px 15px rgba(7, 104, 3, 0.4);
+    text-shadow: 0px 25px 15px rgb(0, 0, 0);
     font-weight: bold;
     margin-top: -3%;
-    color: rgb(70, 240, 93); 
+    color: rgb(23, 21, 139); 
     text-align: right;
     padding-right: 1%;
    
@@ -199,7 +199,7 @@ html, body {
  .second-sentence {
     text-align: right;
     font-size: 650%;
-    color: rgb(6, 59, 1);
+    color: rgb(23, 21, 139);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
     
@@ -219,16 +219,22 @@ html, body {
     line-height: 0;
     text-align: right;
     padding-right: 2%;
-    color: rgb(4, 46, 2); 
+    color: rgb(23, 21, 139); 
     text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
     margin-bottom: 7%;
     
     }
 
+@media (max-width: 769px){
+    .third-sentence p{
+    font-size: 60%;
+}
+}
+
 
 
     .second-page{
-        background-color: rgb(190, 255, 170);
+        background-color: rgb(199, 199, 199); 
       
         
 
@@ -316,9 +322,12 @@ html, body {
         margin-bottom: 3%;
     }
 
+    .third-page{
+        background-color: white;
+    }
 
     .fourth-page{
-        background-color: rgb(190, 255, 170);
+        background-color: rgb(199, 199, 199); 
         
     }
 
@@ -327,7 +336,7 @@ html, body {
         font-family: "Arial"; 
         font-size: 260%;
         text-align: center;
-        color: rgb(4, 46, 2); 
+        color: black;
         text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
         font-weight: bold;
         margin-bottom: 7% ;
@@ -349,7 +358,7 @@ html, body {
 
     }
     .btn-primary {
-        background-color:  rgb(255, 246, 204);
+        background-color:  white;
         color: rgb(0, 0, 0); 
         text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.089);
         padding: 1% 2%;
@@ -361,7 +370,7 @@ html, body {
         margin: 0 auto;
 }
     .btn-primary:hover {
-        background-color: #177c02;
+        background-color: rgb(23, 21, 139);
 }
 
     .central-container {
